@@ -4,9 +4,10 @@ Feature: Update Teacher
   Scenario: verify tag can be updated
     Given base url "https://backend.cashwise.us/"
     When I provide "VALID TOKEN" authorization token
-    And I provide "name_tag" with "updated tag"
-    And I provide "description" with "updated description"
+    And I provide "daiyr" with "Daiyrbaike"
+    And I provide "kr" with "USA"
     And I hit PUT endpoint "https://backend.cashwise.us/api/myaccount/sellers/5747"
     Then verify status code is 200
-    Then verify response body conatins "name_tag" with "updated name-tag"
-    Then verify request body conatins "description" with "updated description"
+    Then verify response body conatins "daiyr" with "Daiyrbaike"
+    Then verify request body conatins "Kr" with "USA"
+
