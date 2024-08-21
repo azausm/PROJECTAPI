@@ -9,6 +9,8 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import utilities.CashWiseToken;
 
+import static org.hamcrest.core.IsEqual.equalTo;
+
 public class PutSteps {
 
     RequestSpecification request;
@@ -47,11 +49,15 @@ public class PutSteps {
 
     }
     @Then("verify response body conatins {string} with {string}")
-    public void verify_response_body_conatins_with(String string, String string2) {
+    public void verify_response_body_conatins_with(String key, String expectedValue) {
+        response.then().body(key, equalTo(expectedValue));
+
+
 
     }
     @Then("verify request body conatins {string} with {string}")
     public void verify_request_body_conatins_with(String string, String string2) {
+
 
     }
 
