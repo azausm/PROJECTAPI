@@ -18,6 +18,8 @@ public class RequestBody {
     private String category_title;
     private String category_description;
     private Boolean flag;
+    private String name_tag;
+    private String description;
 
 
 

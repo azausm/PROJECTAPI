@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
         plugin = {"html:target/cucumberReport.html", "json:target/testReport.json"},
         features = "src\\test\\resources\\features",
         glue = "steps",
-        tags = "@CreateCategory",
-        dryRun = false
+        tags = "@positive",
+        dryRun = true
 )
 
 
