@@ -8,9 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"html:target/cucumberReport.html", "json:target/testReport.json"},
         features = "src\\test\\resources\\features",
-        glue = "step_definitions",
-        tags = "@GetTag",
-        dryRun = true
+        glue = "steps",
+        tags = "@CreateCategory",
+        dryRun = false
 )
 
 
