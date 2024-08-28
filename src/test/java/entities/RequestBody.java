@@ -20,6 +20,7 @@ public class RequestBody {
     private Boolean flag;
     private String name_tag;
     private String description;
+    private int sellerId;
 
 
 
