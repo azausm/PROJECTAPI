@@ -1,0 +1,38 @@
+16:45:48 [main] INFO  steps.SellerSteps - Given step is executed: I have hit GET a single seller API
+16:45:48 [main] INFO  steps.SellerSteps - Then step is executed: I verify email is not empty
+16:45:50 [main] INFO  steps.SellerSteps - Given step is executed: I provided valid params to hit GET all sellers 
+16:45:50 [main] INFO  steps.SellerSteps - Then step is executed: I verify seller id is not 0
+16:45:51 [main] INFO  steps.SellerSteps - Given step is executed: I have hit GET a single seller API
+16:45:53 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit POST to archive seller
+16:45:54 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit GET all archived sellers
+16:50:25 [main] INFO  steps.SellerSteps - Given step is executed: I have hit GET a single seller API
+16:50:25 [main] INFO  steps.SellerSteps - Then step is executed: I verify email is not empty
+16:50:27 [main] INFO  steps.SellerSteps - Given step is executed: I provided valid params to hit GET all sellers 
+16:50:27 [main] INFO  steps.SellerSteps - Then step is executed: I verify seller id is not 0
+16:50:28 [main] INFO  steps.SellerSteps - Given step is executed: I have hit GET a single seller API
+16:50:30 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit POST to archive seller
+16:50:31 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit GET all archived sellers
+16:53:40 [main] INFO  steps.SellerSteps - Given step is executed: I have hit GET a single seller API
+16:53:40 [main] INFO  steps.SellerSteps - Then step is executed: I verify email is not empty
+16:53:41 [main] INFO  steps.SellerSteps - Given step is executed: I provided valid params to hit GET all sellers 
+16:53:41 [main] INFO  steps.SellerSteps - Then step is executed: I verify seller id is not 0
+16:53:43 [main] INFO  steps.SellerSteps - Given step is executed: I have hit GET a single seller API
+16:53:44 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit POST to archive seller
+16:53:46 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit GET all archived sellers
+16:55:32 [main] INFO  steps.SellerSteps - Given step is executed: I have hit GET a single seller API
+16:55:32 [main] INFO  steps.SellerSteps - Then step is executed: I verify email is not empty
+16:55:34 [main] INFO  steps.SellerSteps - Given step is executed: I provided valid params to hit GET all sellers 
+16:55:34 [main] INFO  steps.SellerSteps - Then step is executed: I verify seller id is not 0
+16:55:35 [main] INFO  steps.SellerSteps - Given step is executed: I have hit GET a single seller API
+16:55:37 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit POST to archive seller
+16:55:38 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit GET all archived sellers
+17:08:51 [main] INFO  steps.SellerSteps - Given step is executed: I have hit GET a single seller API
+17:08:52 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit POST to archive seller
+17:08:54 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit GET all archived sellers
+17:09:28 [main] INFO  steps.SellerSteps - Given step is executed: I have hit GET a single seller API
+17:09:29 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit POST to archive seller
+17:09:31 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit GET all archived sellers
+17:10:43 [main] INFO  steps.SellerSteps - Given step is executed: I have hit GET a single seller API
+17:10:45 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit POST to archive seller
+17:10:46 [main] INFO  steps.SellerSteps - Then step is executed: I provided valid params to hit GET all archived sellers
+17:10:46 [main] INFO  steps.SellerSteps - Then step is executed: I verify that seller is archived
