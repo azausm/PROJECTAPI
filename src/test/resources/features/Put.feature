@@ -1,12 +1,10 @@
-Feature: Update Teacher
+Feature: Update seller information
 
-  @positive2
-  Scenario: verify tag can be updated
-    Given base url "https://backend.cashwise.us/"
-    When I provide "VALID TOKEN" authorization token
-    And I provide "name_tag" with "updated tag"
-    And I provide "description" with "updated description"
-    And I hit PUT endpoint "https://backend.cashwise.us/api/myaccount/sellers/5747"
-    Then verify status code is 200
-    Then verify response body conatins "name_tag" with "updated name-tag"
-    Then verify request body conatins "description" with "updated description"
+  @updateSeller
+  Scenario: Successfully update a seller's details
+    When user provide the valid token authorization
+    And I provide seller name with "dastan"
+    And I provide seller email with "Dastan@gmail.com"
+    When I hit PUT endpoint "/api/myaccount/sellers/5747"
+    Then verify response status code should be 200
+    And verify response body should contain "Seller updated successfully"d description"
