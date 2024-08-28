@@ -19,7 +19,11 @@ public class CategorySteps {
     CustomResponse customResponse = new CustomResponse();
     RequestBody requestbody = new RequestBody();
     Response response;
+<<<<<<< HEAD
     String id;
+=======
+    String id ;
+>>>>>>> Daiyr
 
     @Given("user is on the base url {string}")
     public void user_is_on_the_base(String url) {
@@ -76,6 +80,27 @@ public class CategorySteps {
 
     }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+    //PUT
+
+
+    @When("user provide the valid token authorization")
+    public void user_provide_the_valid_token_authorization() {
+        request = RestAssured.given().auth().oauth2(CashWiseToken.GetToken());
+
+
+    }
+
+>>>>>>> Daiyr
     @When("I provide seller name with {string}")
     public void i_provide_seller_name_with(String sellerName) {
         requestbody.setSeller_name(sellerName);
@@ -145,8 +170,11 @@ public class CategorySteps {
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> Daiyr
 }
 
 
