@@ -26,7 +26,7 @@ public class CategorySteps {
 
     @When("I provide the valid token authorization")
     public void i_provide_the_valid_token_authorization() {
-        request = RestAssured.given().auth().oauth2(CashWiseToken.GetToken());
+        request = request.auth().oauth2(CashWiseToken.GetToken());
     }
 
     @When("I provide category_title with {string}")
@@ -47,13 +47,13 @@ public class CategorySteps {
 
     @When("I hit POST endpoint {string}")
     public void i_hit_post_endpoint(String endpoint) {
-        response = RestAssured.given().auth().oauth2(CashWiseToken.GetToken()).body(requestbody)
-                .post(endpoint);
+        response = request.body(requestbody).post(endpoint);
     }
 
     @Then("verify status code is {int}")
     public void verify_status_code_is(int status) {
         Assert.assertEquals(status, response.statusCode());
+        System.out.println(response.statusCode());
     }
 }
 
